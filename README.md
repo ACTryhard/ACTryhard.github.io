@@ -16,4 +16,4 @@
     - Y mucho más...
 
 ## Aviso
-- Este repositorio no contiene código ni facilita enlaces de descarga de terceros que pudiesen llegar a infringir algún tipo de norma; como así tampoco dañar la imagen de ningún individuo/marca, ni de su propio trabajo u contenido.
+- Este repositorio no contiene código ni facilita enlaces de descarga de terceros que pudiesen llegar a infringir algún tipo de norma; como así tampoco se busca dañar la imagen de ningún individuo/marca, ni de su propio trabajo u producto.
