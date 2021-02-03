@@ -190,9 +190,10 @@
            <div itemprop="articleBody">
             
 <div class="section" id="Actualizacion">
-<h1>Notas de la versión 1.5<a class="headerlink" href="#Actualizacion" title="Enlazar permanentemente con este título">¶</a></h1>
+<h1>Notas de la versión 1.6<a class="headerlink" href="#Actualizacion" title="Enlazar permanentemente con este título">¶</a></h1>
 <ul class="simple">
-<li><p>A continuación, una lista con todos los cambios que trae la actualización 1.5 del servidor.</p></li>
+<li><p>A continuación, una lista con todos los cambios que trae la actualización 1.6 del servidor.</p></li>
+<li><p>AVISO, a partir de esta versión, solo es posible ingresar al servidor sin ningún tipo de modificación o bien utilizando Forge y los mods especificados en esta <a href="https://actryhard.github.io/Mods/index.html#lista-de-mods" target="_blank">lista</a>.</p></li>
 <ul>
 </ul>
 </li>
@@ -204,16 +205,15 @@
 <h2>Añadido:<a class="headerlink" href="#añadido" title="Enlazar permanentemente con este título">¶</a></h2>
 
 <ul class="arabic simple">
-<li><p><strong>Sistema de clanes:</strong> Ahora pueden utilizarse todos los comandos del Sistema de clanes tanto en el Nether como en la Lobby.</p>
+<li><p><strong>Sistema Anti-Cheat:</strong> Hubo cambios muy importantes en el Sistema Anti-Cheat del servidor.</p>
 <ul>
-<li><p><strong>Homes:</strong> Los miembros que tengan el rango Maestro/Líder, pueden crear Homes para que todos los jugadores puedan hacerse TP.
+<li><p><strong>Compatibilidad:</strong> El servidor solo te dejará conectarte si no tienes ningún tipo de modificación en el juego, o estas utilizando Forge.
 </li>
-<li><p><strong>Precios:</strong> Se balancearon los precios para subir de Nivel al clan.
-<ul>
-<li><p><strong>$50.000:</strong> Para crear un clan.
-<li><p><strong>$100.000:</strong> Para subir al clan a Nivel 2. (Se desbloquean 10 slots para miembros y 1 Home más).
-<li><p><strong>$250.000:</strong> Para subir al clan a Nivel 3. (Se desbloquean 10 slots para miembros y 1 Home más).
+<li><p><strong>Anti-Xray:</strong> Se mejoró el funcionamiento del Anti-Xray, se envían mensajes a un Administrador de forma mas seguida y automática.
 </li>
+<li><p><strong>Anti-Crash:</strong> Se agregó una función para evitar que utilicen exploits para crashear el servidor.
+</li>
+<li><p><strong>Anti-Killaura:</strong> Cualquier tipo de cheat/hack/exploit que beneficie el combate ahora será automáticamente detectado.
 </ul>
 </ul>
 </li>
@@ -222,45 +222,23 @@
 
 <ul class="arabic simple">
 
-<li><p><strong>Actualización de Nametags:</strong> Ahora los nametags de los jugadores no pueden verse detrás de ninguna pared o bloque para favorecer al Survival y el escondite de bases.</p>
+<li><p><strong>Mejoras de Seguridad:</strong> Se mejoró el cifrado de las contraseñas para reforzar la seguridad de los jugadores.</p>
 <ul>
-<li><p><strong>TAG del clan:</strong> Los tags de clan quedan desactivados momentaneamente mientras investigo un bug que impide que desaparezca junto al Nickname.
-<li><p><strong>Shiftear:</strong> Al shiftear los jugadores tampoco pueden leer tu Nickname en un rango de 50 bloques.
+<li><p><strong>Mods:</strong> La Administración ahora tiene acceso a una lista con todos los mods que los jugadores utilizan al ingresar al servidor.
 </li>
 </ul>
 </ul>
 
 <ul class="arabic simple">
-<li><p><strong>Sistema de Logueos:</strong> Ahora se pueden registrar hasta 5 cuentas por IP.</p>
+<li><p><strong>Sistema de Optimización:</strong> Ahora el servidor cuenta con su propio sistema de optimización.</p>
 <ul>
-<li><p><strong>Bugs:</strong> Se arreglaron varios bugs que impedían a los jugadores reloguear o incluso perder sus cuentas. 
+<li><p><strong>Chunks:</strong> Los chunks inactivos ahora se limpiaran automáticamente para ahorrar memoria.
+<li><p><strong>TPS:</strong> Si los TPS del servidor se reducen hasta cierto punto, se iniciarán varios procedimientos automáticos para mejorar el rendimiento. Como por ejemplo, eliminar mobs, desactivar la Redstone, desactivar las Físicas de los bloques, limitar los spawners, etc.
+<li><p><strong>Rendimiento:</strong> Se mejoró el rendimiento general del servidor eliminando lineas de código y complementos innecesarios.
 </li>
 </ul>
 </ul>
 
-<ul class="arabic simple">
-<li><p><strong>MOTD:</strong> Se agregó un mejor MOTD al servidor.</p>
-<ul>
-<li><p><strong>Jugador ONLINE:</strong> Se agrego un mensaje cada vez que un jugador se conecta o sale del Servidor. (Testeando)
-</li>
-</ul>
-</ul>
-
-<ul class="arabic simple">
-<li><p><strong>Mejoras de Rendimiento:</strong> Se mejoró el rendimiento general del Servidor al eliminar lineas de código y configuraciones innecesarias.</p>
-</li>
-</ul>
-</ul>
-</ul>
-
-<ul class="arabic simple">
-<li><p><strong>Mejoras al Sistema Anti-Cheat:</strong> Se ha mejorado la estabilidad del Anti-Cheat y su impacto al rendimiento del servidor.</p>
-<ul>
-<li><p><strong>XRay-Detection:</strong> Se ha actualizado la database.
-</li>
-</ul>
-</ul>
-</ul>
 
 
 
@@ -288,14 +266,6 @@
 </ul>
 
 <ul class="arabic simple">
-<li><p><strong>Mejoras a la base del Survival:</strong> Se mejorará el aspecto de la base del Survival añadiendo objetos y detalles nuevos.</p>
-<ul>
-<li><p><strong>Zona segura:</strong> El Spawn del Survival (Castillo) ahora es una zona segura anti-PvP, para poder intercambiar o discutir pacíficamente entre clanes/jugadores.
-</li>
-</ul>
-</ul>
-
-<ul class="arabic simple">
 
 <li><p><strong>Mobs y Bosses:</strong> Se planea agregar Mobs y Bosses únicos en el mundo.</p>
 </ul>
@@ -310,9 +280,6 @@
 
 <ul class="arabic simple">
 
-<li><p><strong>Sistema de Optimización Automático:</strong> Se buscará añadir un sistema que optimice el servidor de manera automática cada X tiempo, eliminando bloques que estén en el suelo y limitando el uso de granjas.</p>
-</ul>
-
 <ul class="arabic simple">
 
 <li><p><strong>Mejoras de calidad de vida:</strong> Se intentará mejorar la experiencia de juego de los jugadores, agregando funciones nuevas.</p>
@@ -326,6 +293,7 @@
 
 <ul class="arabic simple">
 
+<li><p><strong><a href="https://imgur.com/a/FLvxU9j" target="_blank">VERSIÓN 1.5</a></strong>
 <li><p><strong><a href="https://imgur.com/a/yJf2lkn" target="_blank">VERSIÓN 1.3a</a></strong>
 
 
